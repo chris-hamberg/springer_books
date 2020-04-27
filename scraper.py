@@ -21,7 +21,7 @@ class Book:
 
     def __init__(self, idx, title, edition, subject, url):
         self.idx     = idx
-        self.title   = title
+        self.title   = self.fix(title)
         self.edition = edition
         self.name    = f'{self.title}, {self.edition}'
         self.subject = self.process(subject)
@@ -31,6 +31,13 @@ class Book:
 
     def __repr__(self):
         return f'{self.idx}: {self.title}, {self.edition} [{self.subject}]'
+
+
+    def fix(self, title):
+        if 'lin' in sys.platform or 'and' in sys.platform:
+            return title.replace('/', '\\')
+        else:
+            return title
 
 
     def process(self, subject):
