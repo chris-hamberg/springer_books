@@ -18,29 +18,28 @@ INSTRUCTIONS (for those not familiar with Python or git) :
 
 
 3) Once you have Python and git. In your command prompt (or terminal) 
-   type the command
+   type the command:
 
    git clone https://github.com/chris-hamberg/springer_books.git
 
-   This downloads the software that will get the books onto your machine.
+This downloads the software that will get the books onto your machine.
 
 
 4) This step is OPTIONAL. If you are tech-savy, you may want to look up how to
-   setup a Python virtual environment on your operating system. On Linux it is
+   setup a Python virtual environment on your operating system. On Linux it is:
 
-   python -m venv /home/user/environment_name && 
-   source /home/user/environment_name/bin/activate
+   python -m venv /home/user/environment_name && source /home/user/environment_name/bin/activate
 
 
-5) Now that you've cloned (downloaded) the software. Now type...
+5) Now that you've cloned (downloaded) the software. Now type:
 
    pip install -r requirements.txt
 
-   This will install the Python dependencies into Python that are required for 
-   the software to work.
+This will install the Python dependencies into Python that are required for 
+the software to work.
 
 
-6) Now type (in the command prompt)
+6) Now type (in the command prompt):
 
    python scraper.py
 
