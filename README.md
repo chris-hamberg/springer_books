@@ -40,8 +40,8 @@ INSTRUCTIONS (for those not familiar with Python or git) :
     pip install -r requirements.txt
     ```
 
-This will install the Python dependencies into Python that are required for 
-the software to work.
+    This will install the Python dependencies into Python that are required for 
+    the software to work.
 
 
 6)  Now type (in the command prompt):
