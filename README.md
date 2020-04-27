@@ -61,6 +61,5 @@ directory.
 If you did the OPTIONAL step 4, then you need to deactivate the virtual 
 environment, and destroy it. On linux this is achived by the command:
 
-    ```
     deactivate && rm -r /home/user/environment_name
-    ```
+    
