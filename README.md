@@ -10,38 +10,38 @@ over night. There are over 400 free books!
 INSTRUCTIONS (for those not familiar with Python or git) :
 
 
-1) If you are a Windows user, you will need to download and install the latest 
-   version of Python 3.8 on your computer.
+1)  If you are a Windows user, you will need to download and install the latest 
+    version of Python 3.8 on your computer.
 
 
-2) You also will need to download and install git on your computer.
+2)  You also will need to download and install git on your computer.
 
 
-3) Once you have Python and git. In your command prompt (or terminal) 
-   type the command:
+3)  Once you have Python and git. In your command prompt (or terminal) 
+    type the command:
 
-   git clone https://github.com/chris-hamberg/springer_books.git
+    git clone https://github.com/chris-hamberg/springer_books.git
 
-This downloads the software that will get the books onto your machine.
-
-
-4) This step is OPTIONAL. If you are tech-savy, you may want to look up how to
-   setup a Python virtual environment on your operating system. On Linux it is:
-
-   python -m venv /home/user/environment_name && source /home/user/environment_name/bin/activate
+    This downloads the software that will get the books onto your machine.
 
 
-5) Now that you've cloned (downloaded) the software. Now type:
+4)  This step is OPTIONAL. If you are tech-savy, you may want to look up how to
+    setup a Python virtual environment on your operating system. On Linux it is:
 
-   pip install -r requirements.txt
+    python -m venv /home/user/environment_name && source /home/user/environment_name/bin/activate
+
+
+5)  Now that you've cloned (downloaded) the software. Now type:
+
+    pip install -r requirements.txt
 
 This will install the Python dependencies into Python that are required for 
 the software to work.
 
 
-6) Now type (in the command prompt):
+6)  Now type (in the command prompt):
 
-   python scraper.py
+    python scraper.py
 
 
 Your books are now downloading! The program will tell you in the terminal what 
