@@ -28,7 +28,7 @@ INSTRUCTIONS (for those not familiar with Python or git) :
 4) This step is OPTIONAL. If you are tech-savy, you may want to look up how to
    setup a Python virtual environment on your operating system. On Linux it is
 
-   python -m venv /home/user/environment_name
+   python -m venv /home/user/environment_name && 
    source /home/user/environment_name/bin/activate
 
 
