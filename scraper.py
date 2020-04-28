@@ -2,7 +2,9 @@ import pandas as pd
 import lxml.html
 import os, sys
 import requests
+import itertools
 
+START_IDX = 0
 
 xlsx = 'Free+English+textbooks.xlsx'
 xfile = pd.ExcelFile(xlsx)
@@ -142,7 +144,7 @@ class Book:
 
 
 
-for idx, row in df.iterrows():
+for idx, row in itertools.islice(df.iterrows(), START_IDX, None):
     book = Book(idx, 
                 df['Book Title'].iloc[idx], 
                 df['Edition'].iloc[idx], 
