@@ -34,7 +34,8 @@ INSTRUCTIONS (for those not familiar with Python or git) :
     python -m venv /home/user/environment_name && source /home/user/environment_name/bin/activate
     ```
 
-5)  Now that you've cloned (downloaded) the software. Now type:
+5)  Now that you've cloned (downloaded) the software. cd into the clone directory
+    and type:
 
     ```
     pip install -r requirements.txt
